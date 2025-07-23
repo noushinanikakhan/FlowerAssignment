@@ -1,0 +1,30 @@
+/* nav styles */
+nav {
+display: flex;  justify-content: space-between;
+margin-left: 150px; margin-right: 150px; margin-top: 24.5px;
+}
+.nav-items {display: flex; gap: 15px;}
+nav ul li {list-style: none; }
+nav ul li a{text-decoration: none; }
+.n-color {color: rgba(37, 36, 50, 1);}
+.shop-color {color:rgba(137, 135, 161, 1)}
+
+
+
+
+
+/* small media query */
+
+@media screen and (max-width:576px) {
+    .small-nav {max-width: 100%;  }
+    .hide {display: none;}
+ 
+      nav {
+    margin: 16px;
+  }
+   .logo {width: 63px; height: 38px;}
+  .nav-items {
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
