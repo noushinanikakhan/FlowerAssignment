@@ -106,15 +106,77 @@ font-size: 1.375;}
 /* .badge {margin-left: -300px; margin-top: -900px; border: solid;}  */
 
 /* pictures */
-
-.pictures { width: 1140px; margin-left: 150px;
+/* 
+.pictures { width: 1140px; margin-left: 150px; height: 450px;
 margin-right: 150px; margin-top: 120px;}
 .picture-flex {display: flex; justify-content: space-between;}
+.picture-font {font-family: "Noto Serif";
+font-weight: 700; font-size: 1.25rem;
+color: rgba(255, 255, 255, 1);}
+.plant-image {position: relative; width: 400px;}
+.picture-container{position: relative; display: block;}
+.picture-text {position:absolute;  z-index: 2;}
+.image-one {background-image: url(./B12A02-Responsive-Flowers/assets/deal-bloom.png);
+width: 100%;}
+.image-two {background-image: url(./B12A02-Responsive-Flowers/assets/deal-ana.png);width: 100%;}
+.image-three {background-image: url(./B12A02-Responsive-Flowers/assets/deal-zabo.png);
+width: 100%; padding: auto;}
 
-.boom-plant {border-radius: 14px; margin-bottom: 10px;}
-.zabo-plant {border-radius: 22px;}
+.boom-plant {border-radius: 14px; margin-bottom: 10px;
+width: 367px; height: 206;}
+
+.zabo-plant {border-radius: 22px; width: 750px; height: 422px;}
 .plant-image {gap:20px; padding: 15px;}
+.solid {border: solid;} */
 
+.image-section{ width: 1140px; align-items: center; margin-top: 150px;
+margin-bottom: 150px; margin-left: 150px; margin-right: 150px;}
+.image-flex {display: flex; gap: 20px;}
+.image-gap {padding: 10px;}
+.picture-container {position:relative;
+width: 370px;}
+.picture-containerBig {position:relative;width: 750px;}
+.picture-container img  {width: 100%; border-radius: 14px; padding-top: 5px; opacity: 100%;}
+
+.picture-text {position: absolute; top: 50px; left:30px;}
+.picture-text-big {position: absolute; top: 150px; left:120px;}
+.Big-image {border-radius: 25px; opacity: 100%;}
+.picture-text-font {font-family: "Noto Serif";
+font-weight: 700;
+font-size: 1.5rem;
+text-align: center;
+color: rgba(255, 255, 255, 1);}
+.picture-text-font2{
+  font-family: "Noto Serif";
+font-weight: 500;
+font-size: 1rem;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+.picture-text-font3 {font-family: "Noto Serif";
+font-weight: 700;
+font-size: 2.5rem;
+text-align: center;
+color: rgba(255, 255, 255, 1);}
+.picture-text-font4{
+  font-family: "Noto Serif";
+font-weight: 500;
+font-size: 2rem;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+
+/* join section */
+
+.form{width: 1440px; 
+background-image: url();}
+.form-head {font-family: "Noto Serif";
+font-weight: 700;
+font-size: 2.5rem;
+text-align: center;
+/* color: rgba(255, 255, 255, 1);} */
 
 /* small media query */
 
@@ -187,6 +249,31 @@ max-width: 414px; height: 117px; padding-top: 800px;  }
 font-weight: 700;
 font-size: 1.5rem;
 }
+
+/* picture mobile view */
+.image-section{ width: 414px; align-items: center; margin-top: 100px;
+margin-bottom: 50px; margin-left: 0px; margin-right: 0px;}
+.image-flex {display: grid; 
+grid-template-columns: 1fr;
+gap:5px;}
+.picture-containerBig {position:relative;}
+.Big-image {border-radius: 10px; opacity: 100%; width: 370px;}
+.picture-text-font3 {font-family: "Noto Serif";
+font-weight: 700;
+font-size: 1.5rem;
+text-align: center;
+color: rgba(255, 255, 255, 1);}
+.picture-text-big {position: absolute; top: 20px; left:60px;}
+.picture-text-font4{
+  font-family: "Noto Serif";
+font-weight: 500;
+font-size: 1rem;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+
+
   } 
 
 
