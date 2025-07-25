@@ -134,19 +134,20 @@ width: 367px; height: 206;}
 
 .image-section{ width: 1140px; align-items: center; margin-top: 150px;
 margin-bottom: 150px; margin-left: 150px; margin-right: 150px;}
-.image-flex {display: flex; gap: 20px;}
-.image-gap {padding: 10px;}
+.image-flex {display: flex; gap: 30px;}
+.image-gap {padding: 10px; margin-bottom: 10px;}
 .picture-container {position:relative;
 width: 370px;}
-.picture-containerBig {position:relative;width: 750px;}
-.picture-container img  {width: 100%; border-radius: 14px; padding-top: 5px; opacity: 100%;}
+.picture-containerBig {position:relative;width: 750px; filter: brightness(60%);}
+.picture-container img  {width: 100%; border-radius: 14px; padding-top: 5px; opacity: 100%;
+filter: brightness(50%);}
 
-.picture-text {position: absolute; top: 50px; left:30px;}
-.picture-text-big {position: absolute; top: 150px; left:120px;}
-.Big-image {border-radius: 25px; opacity: 100%;}
+.picture-text {position: absolute; top: 40px; left:80px;}
+.picture-text-big {position: absolute; top: 100px; left:150px;}
+.Big-image {border-radius: 30px; opacity: 100%;}
 .picture-text-font {font-family: "Noto Serif";
 font-weight: 700;
-font-size: 1.5rem;
+font-size: 1.15rem;
 text-align: center;
 color: rgba(255, 255, 255, 1);}
 .picture-text-font2{
@@ -161,7 +162,7 @@ text-decoration: none;
 font-weight: 700;
 font-size: 2.5rem;
 text-align: center;
-color: rgba(255, 255, 255, 1);}
+color: rgba(255, 255, 255, 1); }
 .picture-text-font4{
   font-family: "Noto Serif";
 font-weight: 500;
@@ -182,7 +183,7 @@ font-size: 2.5rem;
 text-align: center;
 color: rgba(255, 255, 255, 1);} 
 .Subscribe-flex {display: flex; justify-content: center;}
-.email-text { width: 640px; height: 46px;}
+.email-text { width: 640px; height: 46px; align-items: flex-start; padding-left: 10px;}
 
 .inter-button-submit {font-family: Inter; font-size: 1rem; font-weight: 600; height: 50px;
 text-align: center; background-color:rgba(233, 90, 8, 1); border: none;
@@ -208,7 +209,7 @@ justify-items: flex-start; margin: 50px 150px;
 .box-col-4 {grid-row: span 4;}
 .social-media {display: flex; justify-content: space-around; } */ */ */
 
-footer {width: 1440px; height:530px;}
+footer {width: 1440px; height:530px; background-color: rgba(255, 255, 255, 0.5);}
 .footer-card1 { width: 350px; height: 200px; margin-left: 150px; margin-top: 50px;
   margin-right: 0;
 padding: 25px;}
